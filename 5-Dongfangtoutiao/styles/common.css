@@ -6,7 +6,7 @@
 .header{
   height: 100px;
   width: 100%;
-  background-color: green;
+  background-color: #ffffff;
   position: relative;
 
 }
@@ -99,6 +99,7 @@ position: relative;
   display: block;
   position: absolute;
   right: 0px;
+  top: 2px;
   background-image: url(../images/hot.png);
   background-repeat: no-repeat;
   background-size: 25px 12px;
@@ -129,7 +130,6 @@ position: relative;
 /*left part  */
 .main .leftpart{
   width: 426px;
-  background-color: blue;
 
   float: left;
 }
@@ -137,23 +137,80 @@ position: relative;
 
 }
 .main .leftpart .hotnews .top_hot{
-    height: 316px;
+    height: 400px;
 }
 .main .leftpart .hotnews .top_hot .top_hot_title{
   height: 38px;
+  border-bottom: 1px solid #ebebeb;
+  width: 400px;
 }
 .main .leftpart .hotnews .top_hot .top_hot_title .redianyaowen{
-  background-image: url(../images/news.png);
-  background-size: 30px 30px;
-  margin-left: 17px;
-  width: 30px;
+  position: relative;
+  padding-bottom: 6px;
+  width: 130px;
   height: 30px;
+  border-bottom: 3px solid #e34747;
+
+}
+.main .leftpart .hotnews .top_hot .top_hot_title .redianyaowen .redian1{
+  background-image: url(../images/news.png);
+  background-size: 25px 25px;
+  height: 25px;
+  width: 25px;
+position:absolute;
+left: 15px;
 
 }
 .main .leftpart .hotnews .top_hot .top_hot_title .redianyaowen span{
   display: block;
-  width: 30px;
+  width: 80px;
   height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 47px;
+  font-size: 19px;
+  color: #ee4b4b;
+  font-weight: bolder;
+}
+.main .leftpart .hotnews .top_hot .top_hot_contents{
+
+  border-bottom: 1px solid #ebebeb;
+  width: 400px;
+  padding: 33px 0;
+}
+.main .leftpart .hotnews .top_hot .top_hot_contents ul{
+
+}
+.main .leftpart .hotnews .top_hot .top_hot_contents ul li{
+  height: 46.5px;
+  padding-bottom: 22px;
+
+}
+.main .leftpart .hotnews .top_hot .top_hot_contents ul li.last_hotnews{
+  padding:none;
+}
+.main .leftpart .hotnews .top_hot .top_hot_contents ul li span{
+  display: block;
+  width: 100%;
+  color: #333333;
+
+}
+.main .leftpart .hotnews .top_hot .top_hot_contents ul li span.emph{
+  height: 30px;
+  background-size: 5px 5px;
+  background-image: url(../images/disc.png);
+  background-repeat: no-repeat;
+  padding-left: 12px;
+  background-position: left center;
+  line-height: 30px;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+.main .leftpart .hotnews .top_hot .top_hot_contents ul li span.not_emph{
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
 }
 .main .leftpart .hotnews .other_news{
   height: 844px;
@@ -177,8 +234,18 @@ position: relative;
 }
 .main .rightpart .imgs_part .middle_bar{
   height: 36px;
-  padding: 24px 0;
-  background-color: yellow;
+  margin: 24px 0;
+  background-color: #f0f0f0;
+}
+.main .rightpart .imgs_part .middle_bar span{
+  display: block;
+  width: 80px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  background-color: #cc6666;
+  color: #ffffff;
+
 }
 .main .rightpart .imgs_part .six_imgs{
   height: 250px;
