@@ -1,0 +1,18 @@
+body{
+  width: 1024px;
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+
+.h22{
+  height: 22px;
+  width: 100%;
+}
+.w172{
+  width: 172px;
+  height: 100%;
+  float: left;
+}
